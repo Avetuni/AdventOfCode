@@ -1,7 +1,5 @@
 total = 0
-maxr = 12
-maxg = 13
-maxb = 14
+
 color_dict = {'blue': 0, 'red': 0, 'green': 0}
 with open("input.txt", "r") as file:
     while line := file.readline().replace(":", "").replace(",", "").replace("Game ", "").replace(";" , "").replace("\n", "").split(" "):
