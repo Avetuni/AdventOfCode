@@ -15,7 +15,6 @@ arr1.sort()
 arr2.sort()
 
 for i in arr1:
-    numToCheck = i
     for j in arr2:
         if j == i:
             sum += i
