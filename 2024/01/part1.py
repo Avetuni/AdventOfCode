@@ -1,7 +1,5 @@
-
 sum = 0
-arr1 = []
-arr2 = []
+arr1, arr2 = [], []
 
 with open("2024\\01\\input.txt", "r") as file:
     while True:
