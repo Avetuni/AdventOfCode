@@ -3,7 +3,7 @@ import re
 sum = 0
 matches = []
 
-with open("input.txt", "r") as file:
+with open("2024\\03\\input.txt", "r") as file:
     while True:
         line = file.readline()
         if not line:
